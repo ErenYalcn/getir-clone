@@ -36,7 +36,7 @@ export default function MainSlider() {
 
     return (
         <div className="relative  h-[500px] before:bg-gradient-to-r before:from-primary-brand-color before:absolute before:z-10 before:inset-0 before:w-full before:h-full">
-            <Slider {...settings}>
+        <Slider {...settings}>
             <div>
                 <img className="w-full h-[500px] object-cover" src="https://getir.com/_next/static/images/getir-mainpage-4-1751ad2d8fb42a88742d6751938da7e7.jpg" />
             </div>
