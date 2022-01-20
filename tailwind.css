@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@layer base{
+    html, body{
+        font-family:'Open Sans', sans-serif;
+        @apply antialiased
+        
+    }
+}
