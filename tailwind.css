@@ -3,6 +3,8 @@
 @tailwind components;
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
 
 @layer base{
     html, body{
@@ -11,3 +13,16 @@
         
     }
 }
+
+.flag-s button{
+    @apply h-14 border-2 border-gray-200 bg-white transition-all hover:border-primary-brand-color focus:border-primary-brand-color
+}
+.flag-s button span >span{
+    @apply text-sm
+}
+
+.flag-s{
+    @apply !pb-0
+}
+
+
