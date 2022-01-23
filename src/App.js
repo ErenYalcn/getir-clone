@@ -15,10 +15,12 @@ function App() {
         <Header />
         <MainSlider />
         <Categories />
-        <Campaigns />
-        <Favorites />
-        <MobileApp />
-        <Cards />
+      <div className="grid gap-y-6 py-6 pb-14 container mx-auto">
+          <Campaigns />
+          <Favorites />
+          <MobileApp />
+          <Cards />
+			</div>
         <Footer />
     </div>
   );

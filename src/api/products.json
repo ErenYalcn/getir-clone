@@ -1,0 +1,115 @@
+[
+    {
+      "id": 1,
+      "title": "Kuzeyden",
+      "image": "https://cdn.getir.com/product/5a7b20fd8e19da0004bb27f8_tr_1615375864268.jpeg",
+      "alt": "1,5L",
+      "price": 2.75
+    },
+    {
+      "id": 2,
+      "title": "Kızılay Afyonkarahisar",
+      "image": "https://cdn.getir.com/product/5bbdbbbaa6e9de25524a27fc_tr_1611157494890.jpeg",
+      "alt": "6 x 200ml",
+      "price": 6.85
+    },
+    {
+      "id": 3,
+      "title": "Ruffles Originals",
+      "image": "https://cdn.getir.com/product/5bc97caf9c76e6001268c0ac_tr_1601150305064.jpeg",
+      "alt": "1.5 L",
+      "price": 7.75
+    },
+    {
+      "id": 4,
+      "title": "Ülker Sütlü",
+      "image": "https://cdn.getir.com/product/5898a207d5b34d0004dcef4b_tr_1608385708453.jpeg",
+      "alt": "60 g",
+      "price": 5.35
+    },
+    {
+      "id": 5,
+      "title": "Tadım Yer Fıstıklı",
+      "image": "https://cdn.getir.com/product/5bcdb7e78098cb0035cd16e5_tr_1609904590331.jpeg",
+      "alt": "3 g",
+      "price": 2.30
+    },
+    {
+    "id": 6,
+    "title": "Magnum Badem",
+    "image": "https://cdn.getir.com/product/559fec01f462100c00461d5c_tr_1618323765236.jpeg",
+    "alt": "100 ml",
+    "price": 7.00
+    },
+    {
+      "id": 7,
+      "title": "Uno Tost Ekmeği",
+      "image": "https://cdn.getir.com/product/5c879b921f5acb000125e903_tr_1612851603430.jpeg",
+      "alt": "350 g",
+      "price": 5.95
+    },
+    
+    {
+      "id": 8,
+      "title": "Uno Tam Buğdaylı Ekmek",
+      "image": "https://cdn.getir.com/product/5c879b051f5acb000125e810_tr_1614777004377.jpeg",
+      "alt": "350 g",
+      "price": 9.75
+    },
+    {
+      "id": 9,
+      "title": "CP Büyük Boy",
+      "image": "https://cdn.getir.com/product/5baa132d4621d1001e336d7f_tr_1582126649140.jpeg",
+      "alt": "15'li",
+      "price": 18.95
+    },
+    {
+      "id": 10,
+      "title": "Sütaş Süzme Peynir",
+      "image": "https://cdn.getir.com/product/582337bb5b31d60004489be3_tr_1579699634031.jpeg",
+      "alt": "500 g",
+      "price": 20.95
+    },
+    {
+      "id": 11,
+      "title": "Nuh'un Ankara Burgu",
+      "image": "https://cdn.getir.com/product/559fb052f462100c00461474.jpeg",
+      "alt": "500 g",
+      "price": 3.95
+    },
+    {
+      "id": 12,
+      "title": "Jambon Cheddar Mega",
+      "image": "https://cdn.getir.com/product/5ced482a4a8a2a000137da42_tr_1581945882789.jpeg",
+      "alt": "230 g",
+      "price": 24.90
+    },
+    {
+      "id": 13,
+      "title": "Patates",
+      "image": "https://cdn.getir.com/product/5c9235bad0222600018b999a_tr_1583485602247.jpeg",
+      "alt": "2 kg",
+      "price": 9.75
+    },
+    {
+      "id": 14,
+      "title": "Kokteyl Domates",
+      "image": "https://cdn.getir.com/product/5cac8bffec184600019a371d_tr_1609123369165.jpeg",
+      "alt": "50 g",
+      "price": 7.95
+    },
+    {
+      "id": 15,
+      "title": "Domastos Dağ Esintisi",
+      "image": "https://cdn.getir.com/product/5d7f8dd10ed2c200010d5152_tr_1580804550544.jpeg",
+      "alt": "750 ml",
+      "price": 8.45
+    },
+    {
+      "id": 16,
+      "title": "Antibakteriyel Sıvı Sabun",
+      "image": "https://cdn.getir.com/product/5e9056518f097155e41c4f6f_tr_1607433477355.jpeg",
+      "alt": "700 ml",
+      "price": 17.95
+    }
+  ]
