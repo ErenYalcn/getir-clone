@@ -12,16 +12,20 @@ import MainSlider from 'components/MainSlider';
 function App() {
   return (
     <div className="App">
-        <Header />
-        <MainSlider />
+      <Header />
+      <MainSlider />
+        <div className='max-w-7xl mx-auto'>
+        
+        
         <Categories />
-      <div className="grid gap-y-6 py-6 pb-14 container mx-auto">
-          <Campaigns />
-          <Favorites />
-          <MobileApp />
-          <Cards />
-			</div>
+          <div className="">
+              <Campaigns />
+              <Favorites />
+              <MobileApp />
+              <Cards />
+          </div>
         <Footer />
+        </div>
     </div>
   );
 }
