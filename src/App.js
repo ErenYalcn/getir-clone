@@ -11,21 +11,21 @@ import MainSlider from 'components/MainSlider';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-mainbg">
       <Header />
       <MainSlider />
+      <Categories />
         <div className='max-w-7xl mx-auto'>
-        
-        
-        <Categories />
-          <div className="">
+              
               <Campaigns />
               <Favorites />
               <MobileApp />
               <Cards />
-          </div>
-        <Footer />
+              
         </div>
+        <Footer />
+
+
     </div>
   );
 }

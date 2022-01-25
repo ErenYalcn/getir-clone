@@ -48,7 +48,7 @@ export default function Campaigns() {
 
     return (
         <div className="container mx-auto px-0">
-            <h3 className="mb-6 font-semibold text-sm text-opacity-70">Kampanyalar</h3>
+            <h3 className="mt-6 mb-6 font-semibold text-sm text-opacity-70">Kampanyalar</h3>
 
             <Slider className="-mx-2 relative"{...settings}>
             {banners.length && banners.map((banner, index) => (
