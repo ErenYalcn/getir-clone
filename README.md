@@ -147,6 +147,8 @@ Resources I used while developing the project:
 * [GitHub Pages](https://pages.github.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 * [useWindowSize()](https://www.npmjs.com/package/@react-hook/window-size)
+* [react-hook/window-size](https://www.npmjs.com/package/@react-hook/window-size)
+* [react-collapse](https://www.npmjs.com/package/react-collapse)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
