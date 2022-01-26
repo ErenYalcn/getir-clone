@@ -1,9 +1,14 @@
 import { useState } from "react";
 import Slider from "react-slick";
 import ReactFlagsSelect from 'react-flags-select';
+import { useWindowWidth } from '@react-hook/window-size'
+
 
 
 export default function MainSlider() {
+
+    const windowWidth = useWindowWidth()
+
     
     const [selected, setSelected] = useState('TR');
 
@@ -36,7 +41,7 @@ export default function MainSlider() {
 
     return (
         <div className="relative  h-auto before:bg-gradient-to-r before:from-primary-brand-color before:absolute before:z-10 before:inset-0 before:w-full before:h-full">
-        <Slider {...settings}>
+        {windowWidth > 768 && <Slider {...settings}>
             <div>
                 <img className="w-full h-[500px] object-cover" src="https://getir.com/_next/static/images/getir-mainpage-4-1751ad2d8fb42a88742d6751938da7e7.jpg" />
             </div>
@@ -48,15 +53,15 @@ export default function MainSlider() {
             </div>
      
      
-        </Slider>
-            <div className="container flex justify-between items-center absolute top-0 left-1/2 -translate-x-1/2 h-full z-20"> 
-               <div className="mx-auto">
+        </Slider>}
+            <div className="container flex justify-between items-center relative md:absolute top-0 left-0 md:left-1/2 translate-0 md:-translate-x-1/2 h-full z-20"> 
+               <div className="mx-auto hidden md:block">
                     <img src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg" />
                     <h3 className="mt-8 text-4xl font-semibold text-white">
                         Dakikalar içinde <br />kapınızda
                     </h3>
                </div>
-               <div className="w-[400px] rounded-lg p-6 bg-gray-50 mx-auto">
+               <div className="w-full md:w-[400px] md:rounded-lg p-6 bg-gray-50 md:mx-auto">
                    <h4 className="text-primary-brand-color font-semibold text-center mb-2"> Giriş yap veya kayıt ol</h4>
                    <div className="flex gap-x-2">
                    <ReactFlagsSelect 

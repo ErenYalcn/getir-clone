@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import Slider from "react-slick";
 import Banners from 'api/banners.json'
 import {IoIosArrowForward, IoIosArrowBack} from 'react-icons/io'
+import { useWindowWidth } from '@react-hook/window-size'
+
 
 
 
@@ -24,6 +26,7 @@ export default function Campaigns() {
 
 
 	const [banners, setBanners] = useState([])
+    const windowWidth = useWindowWidth()
 
 	useEffect(() => {
 		setBanners(Banners)
@@ -41,14 +44,29 @@ export default function Campaigns() {
         slidesToScroll: 1,
         cssEase: "linear",
         nextArrow: <NextArw />,
-        prevArrow: <BackArw />
+        prevArrow: <BackArw />,
+        responsive:[
+
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 2
+				}
+			},
+			{
+				breakpoint: 640,
+				settings: {
+					slidesToShow: 1
+				}
+			}
+		]
         
       }; 
 
 
     return (
-        <div className="container mx-auto px-0">
-            <h3 className="mt-6 mb-6 font-semibold text-sm text-opacity-70">Kampanyalar</h3>
+        <div className="sm:container overflow-hidden md:overflow-visible mx-auto px-0" >
+            <h3 className="mt-6 mb-6 font-semibold text-sm text-opacity-70 hidden md:block">Kampanyalar</h3>
 
             <Slider className="-mx-2 relative"{...settings}>
             {banners.length && banners.map((banner, index) => (

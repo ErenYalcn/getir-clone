@@ -18,7 +18,7 @@ export default function Categories() {
 
                 <div className="mx-auto">
                 <h3 className="mb-3 font-semibold text-sm text-opacity-70">Kategoriler</h3>
-                    <div className="grid grid-cols-10">
+                    <div className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-10">
                     {Categories && Categories.map((category, index) => <Category key={index} category={category} />)}
                     </div>
                 </div>
