@@ -16,7 +16,8 @@
   <h3 align="center">Getir.com Clone</h3>
 
   <p align="center">
-    I completed this project to improve my skills!
+    I completed this project to improve my skills! <br />
+    <a href="https://friendly-pare-02217d.netlify.app/">Demo Site</a>
     <br />
   </p>
 </div>
